@@ -1,0 +1,524 @@
+/* ********* nav bar css started******** */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: sticky;
+}
+
+#menubar {
+    color: white;
+    background-color: black;
+    height: 60px;
+    display: flex;
+
+}
+
+#menubar ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-top: 20px;
+    width: 60%;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#menubar ul li:hover {
+    color: red;
+}
+
+#menubar ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+#menubar ul li a:hover {
+    color: red;
+}
+
+#logo {
+    border: 5px solid gold;
+    border-radius: 50px;
+    padding: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 10%;
+    padding-top: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+#logo:hover {
+    cursor: pointer;
+    color: red;
+    transform: scale(1.2);
+    transition-duration: 4s;
+    /* background-color: rgb(176, 191, 196); */
+}
+
+/* ****************section 1 started*************/
+#section-1 {
+    /* background-color: yellow; */
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+
+#div1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    height: 90vh;
+    width: 50%;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#mern1 {
+    color: gold;
+}
+
+#name {
+    padding: 20px;
+}
+
+#email {
+    font-size: medium;
+    font-weight: normal;
+    margin: 20px;
+    padding: 10px;
+}
+
+#mern {
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 80%;
+    margin: auto;
+    font-weight: normal;
+}
+
+#button {
+    background-color: transparent;
+    color: rgb(176, 191, 196);
+    height: 35px;
+    width: 90px;
+    border: 2px solid rgb(176, 191, 196);
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: rgb(176, 191, 196);
+    color: black;
+}
+
+#div2 {
+    background-color: black;
+    height: 90vh;
+    width: 50%;
+    color: black;
+    padding-top: 80px;
+    align-content: center;
+    margin: auto;
+}
+
+#image {
+    /* background-color: blueviolet; */
+    width: 50%;
+    height: 60%;
+    margin: auto;
+    /* padding: 20%; */
+    background-image: url(./assets/shape.png);
+    background-repeat: no-repeat;
+
+}
+
+#image img:hover {
+    transform: scale(1.2);
+    transition-duration: 4s;
+    cursor: zoom-in;
+}
+
+/* *************** about section started*************** */
+#about {
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+#div3{
+    height: 90vh;
+    width: 40%;
+    background-color:black;
+    background-image: url(./assets/1.png);
+    background-size: 80%;
+    background-repeat: no-repeat;
+}
+#div3 img{
+    margin-top: 80px;
+    margin-left: 80px;
+/* justify-content: center; */
+}
+
+#div4 {
+    height: 90vh;
+    width: 60%;
+    background-color: palegreen;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    color: blue;
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin-left: 20px;
+    padding-top: 70px;
+}
+
+#div4 p {
+    width: 80%;
+    padding-top: 20px;
+}
+
+#div4 h3 {
+    font-size: 40px;
+    color: rgb(176, 191, 196)
+}
+
+#div4 p {
+    color: white;
+}
+
+#div4 button {
+    margin-top: 20px;
+    align-content: center;
+}
+
+#let {
+    padding-top: 40px;
+}
+/* *********************Service section started********************** */
+#service{
+    height: 95vh;
+    width: 100%;
+    background-color: black;
+    
+}
+#head{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    color: rgb(176, 191, 196);
+    font-size: 1.6rem;
+    padding-left: 42%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#head p{
+    padding-bottom: 20px;
+    font-size: 1.3rem;
+}
+#field{
+    display: flex;
+    margin-left: 25%;
+}
+#front-end{
+    width: 25%;
+    height: 65vh;
+    border: 5px solid rgb(176, 191, 196);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 10%;
+}
+#front-end:hover{
+    transform: scale(1.1);
+    transition-duration: 3s;
+}
+#icon{
+    width: 30%;
+    height: 12vh;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 30%;
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+    font-size: 70px;
+}
+#content{
+    border: 2px solid black;
+    /* background-color: black; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(176, 191, 196);
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#content h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+#back-end{
+    width: 25%;
+    height: 65vh;
+    border: 5px solid rgb(176, 191, 196);
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-right: 10%;
+}
+#back-end:hover{
+    transform: scale(1.1);
+    transition-duration: 3s;
+}
+#service button{
+    /* margin-left: 45%; */
+    margin-top: 30px;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    border: 5px solid rgb(176, 191, 196);
+    border-radius: 30px;
+    color:rgb(176, 191, 196) ;
+    background-color: black;
+    text-decoration: none;
+    list-style: none;
+    
+}
+#service button:hover{
+    transform: scale(1.2);
+    transition-duration: 2s;
+    color: black;
+    background-color: rgb(176, 191, 196);
+    border-color: gold;
+
+}
+/* ******************front-end*************** */
+#explore-1{
+height: 100vh;
+width: 100%;
+background-color: black;
+display: flex;
+}
+#box1{
+    height: 70vh;
+    width: 20%;
+    border: 4px solid rgb(176, 191, 196) ;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-right: 10%;
+    margin-left: auto;
+}
+#box1:hover{
+    transform: scale(1.1);
+    transition-duration: 3s;
+    border-color: gold;
+}
+#box2{
+    height: 70vh;
+    width: 20%;
+    border: 4px solid rgb(176, 191, 196) ;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-right: 10%;
+}
+#box2:hover{
+    transform: scale(1.1);
+    transition-duration: 3s;
+    border-color: gold;
+}
+#box3{
+    height: 70vh;
+    width: 20%;
+    border: 4px solid rgb(176, 191, 196) ;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-right: 10%;
+}
+#box3:hover{
+    transform: scale(1.1);
+    transition-duration: 3s;
+    border-color: gold;
+}
+/* ***************only one error text-decoration:will not run properly*********** */
+#explore-1 button{
+height: 50px;
+width: 80px;
+cursor: pointer;
+color:rgb(176, 191, 196) ;
+background-color: black;
+border: 5px solid rgb(176, 191, 196) ;
+border-radius: 50px;
+margin-top: 10px;
+margin-right: auto;
+text-decoration: none;
+list-style: none;
+}
+/* ***********************backend********************* */
+#explore-2{
+ height: 100vh;
+width: 100%;
+background-color: black;
+display: flex;
+}
+#box4{
+    height: 70vh;
+    width: 20%;
+    border: 4px solid rgb(176, 191, 196) ;
+    border-radius: 30px;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+#box4:hover{
+    transform: scale(1.1);
+    transition-duration: 3s;
+    border-color: gold;
+}
+#box5{
+    height: 70vh;
+    width: 20%;
+    border: 4px solid rgb(176, 191, 196) ;
+    border-radius: 30px;
+    margin-top: 80px;
+    margin-right: auto;
+}
+#box5:hover{
+    transform: scale(1.1);
+    transition-duration: 3s;
+    border-color: gold;
+}
+#box6{
+    height: 70vh;
+    width: 20%;
+    border: 4px solid rgb(176, 191, 196) ;
+    border-radius: 30px;
+    margin-top: 80px;
+    margin-right: auto;;
+}
+#box6:hover{
+    transform: scale(1.1);
+    transition-duration: 3s;
+    border-color: gold;
+}
+#box7{
+    height: 70vh;
+    width: 20%;
+    border: 4px solid rgb(176, 191, 196) ;
+    border-radius: 30px;
+    margin-top: 80px;
+    margin-right: auto;
+}
+#box7:hover{
+    transform: scale(1.1);
+    transition-duration: 3s;
+    border-color: gold;
+}
+/* ***************only one error text-decoration:will not run properly*********** */
+#explore-2 button{            
+    height: 50px;
+    width: 80px;
+    cursor: pointer;
+    color:rgb(176, 191, 196) ;
+    background-color: black;
+    border: 5px solid rgb(176, 191, 196) ;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-right: auto;
+    text-decoration: none;
+    list-style: none;
+    }
+
+    /* **************************skill section started*************** */
+    #skill-1{
+        height: 100vh;
+        width: 100%;
+        /* background-color: black; */
+        color: rgb(176, 191, 196);
+    }
+    
+    .skill-1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border-bottom: 5px solid red;
+        padding-left: 40%;
+    }
+    .skill-1 p{
+        font-size: 20px;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+    .skill-1 h3{
+        font-size: 50px;
+        padding-left: 30px;
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
+    /* **********progress bar is started*******  */
+   
+   /* ****************Contact form************* */
+     body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(176, 191, 196);
+    background-color: black;
+    /* margin-left: 30px;
+    margin-top: 20px; */
+    /* background-color: black; */
+}
+
+   * {
+    box-sizing: border-box; 
+    /* padding: 25px; */
+    /* margin-left: 30px; */
+    /* margin-top: 20px;  */
+}
+#cont{
+    font-size: 40px;
+    margin-left: 30px;
+    color:rgb(176, 191, 196) ;
+}
+   
+   input[type=text], select, textarea {
+     width: 50%;
+     padding: 12px;
+     border: 2px solid rgb(176, 191, 196);
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+     color: black;
+    
+   }
+   
+   input[type=submit] {
+     background-color:black;
+     color: rgb(176, 191, 196);
+     padding: 12px 20px;
+     border: 5px solid rgb(176, 191, 196);
+     border-radius: 20px;
+     cursor: pointer;
+     height: 50px;
+   }
+   
+   input[type=submit]:hover {
+     background-color: #45a049;
+   }
+   
+   .container {
+     border-radius: 48px;
+     background-color: black;
+     padding: 20px;
+   } 

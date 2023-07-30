@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./skill.css">
+</head>
+
+<body>
+    <nav>
+        <div id="menubar">
+            <div id="logo">BILAL</div>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">about</a></li>
+                <li><a href="./service.html">Services</a></li>
+                <li><a href="./skill.html">Skills</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="section-1">
+        <div id="div1">
+            <p id="name">Hi! I'm Bilal</p>
+            <p id="name">And I'm <span id="mern1">MERN</span> Stack Developer</p>
+            <p id="mern">MERN stack is a collection of technologies that enables faster application development. It is
+                used by developers worldwide. The main purpose of using MERN stack is to develop apps using JavaScript
+                only. This is because the four technologies that make up the technology stack are all JS-based.
+            </p>
+            <div id="email">
+                <p>Email</p>
+                <p>mb4462087@gmail.com</p>
+            </div>
+
+            <div>
+                <button id="button">Download CV</button>
+                <button id="button">Hire me</button>
+            </div>
+
+        </div>
+
+        <div id="div2">
+<div id="image">
+<img src="./assets/bilal1__2_-removebg.png" height="400px" width="300px" alt="">
+</div>
+    </div>
+    </div>
+    <hr id="hr">
+    <!-- ************** about section started**************** -->
+    <section id="about">
+
+        <div id="div3">
+            <img src="./assets/bilal1__2_-removebg.png" height="400px" width="300px" alt="">
+        </div>
+
+
+        <div id="div4">
+            <p id="let">Let me introduced myself !</p>
+            <h3>About Me</h3>
+            <p><span>A story of good</span></p>
+            <p>"Retail worker seeking the position of a warehouse worker at XYZ Supermarket. Previous experience doing
+                several retail jobs, including working as a stocker for produce and groceries at XYZ Family Market.
+                Skilled in stocking, inventory replenishment / tracking, processing relevant paperwork and utilizing
+                electrical pallet stackers / pallet jacks."</p>
+
+            <button id="button">Read More !</button>
+        </div>
+        
+    </section>
+    <hr>
+    <!-- ******************service section started************ -->
+
+
+    <section id="service">
+        <div id="head">
+            <p>What I Will Do For You</p>
+            <h3>Our Services</h3>
+        </div>
+        <div id="field">
+            <div id="front-end">
+                <div id="icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div id="content">
+                    <h3>Front-End</h3>
+                    <p>A Front-End Developer is someone who creates websites and web applications.
+
+                        The Front-End Developer creates things that the user sees.
+
+                        It is a popular job.</p>
+
+                    <button><a href="./front-end.html">Explore</a></button>
+                </div>
+            </div>
+            <div id="back-end">
+                <div id="icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div id="content">
+                    <h3>Back-End</h3>
+                    <p>A back-end web developer is responsible for server-side web application logic and integration of
+                        the work front-end web developers do.</p>
+
+
+                    <button><a href="./back-end.html">Explore</a></button>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+    </section>
+     <!-- ***************only one error text-decoration:will not run properly***********  -->
+<!-- ****************************************skill section is started********* -->
+<section id="skill-1">
+    <div class="skill-1">
+        <p>TECNICAL AND PROFESSIONAL</p>
+        <h3>My Skills</h3>
+    </div>
+
+
+
+    <div class="progress_container">
+        <div class="progress">
+            <div class="progress_item">
+                <h3 class="progress_title">HTML5</h3>
+                <div class="progress_bar">
+                    <div class="bar" data-value="96" data-text="96"></div>
+                </div>
+            </div>
+            <div class="progress_item">
+                <h3 class="progress_title">CSS3</h3>
+                <div class="progress_bar">
+                    <div class="bar" data-value="95" data-text="95"></div>
+                </div>
+            </div>
+            <div class="progress_item">
+                <h3 class="progress_title">Javascript</h3>
+                <div class="progress_bar">
+                    <div class="bar" data-value="90" data-text="90"></div>
+                </div>
+            </div>
+            <div class="progress_item">
+                <h3 class="progress_title">React</h3>
+                <div class="progress_bar">
+                    <div class="bar" data-value="85" data-text="85"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<hr>
+<!-- ******************contact form started*********************** -->
+
+<h3 id="cont">Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="Pakistan">Pakistan</option>
+      <option value="India">India</option>
+      <option value="usa">USA</option>
+    </select><br>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea><br>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./script.js"></script>
+</body>
+
+</html>
